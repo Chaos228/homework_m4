@@ -1,0 +1,476 @@
+@media (min-width: 375px) and (max-width: 668px) {
+
+   footer, .consultation, .clients {
+      display: none;
+   }
+
+   .mobile {
+      display: none;
+   }
+
+   .header {
+      width: 100vw;
+      min-width: 375px;
+   }
+
+   .menu {
+      display: none;
+   }
+
+   .content {
+      min-width: 340px;
+      width: 90.67vw;
+      margin: 0 auto;
+      justify-content: space-between;
+      font-size: 11px;
+   }
+
+   .call__but {
+      display: none;
+   }
+   
+   .logo {
+      margin: 0;
+   }
+
+   .call_link {
+      margin: 0;
+   }
+
+   .info {
+      display: block;
+      width: 100vw;
+      min-width: 375px;
+      height: 476px;
+      margin: 0 auto;
+      background: url(../image/info__background-mobile.png);
+      background-repeat: no-repeat;
+      background-size: 100vw;
+   }
+
+   .info_shadow {
+      width: 100vw;
+      min-width: 375px;
+      height: 476px;
+      background: rgba(0, 0, 0, 0.7);
+   }
+
+   .info__content {
+      width: 90.67vw;
+      min-width: 340px;
+      margin: 0 auto;
+      height: 476px;
+   }
+
+   .info__title {
+      font-size: 23px;
+      line-height: 1.3283em;
+   }
+
+   .info__text {
+      font-size: 14px;
+      line-height: 1.3584em;
+   }
+   
+   .info__button {
+      flex-direction: column;
+   }
+   .info__CALCULATE, .info__APPLICATION {
+      width: 339px;
+      height: 60px;
+      margin: 0;
+   }
+
+   .info__CALCULATE {
+      margin-bottom: 26px;
+   }
+
+   .projects__slider {
+      display: none;
+   }
+
+   .projects {
+      width: 100vw;
+      min-width: 375px;
+      margin-top: -1px;
+      height: 727px;
+   }
+
+   .projects__content {
+      width: 90.67vw;
+      min-width: 340px;
+   }
+
+   .projects__text {
+      width: 90.67vw;
+      min-width: 340px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 36px;
+   }
+
+   .projects__list {
+      grid-template-columns: 129px 181px;
+      grid-template-rows: 68px 68px;
+      gap: 27px;
+   }
+
+   .projects__text_title {
+      width: 253px;
+      font-size: 22px;
+      text-align: center;
+   }
+
+   .projects__text_info {
+      font-size: 11px;
+      text-align: center;
+      width: 311px;
+      margin-bottom: 36px;
+   }
+
+   .projects__list_title {
+      font-size: 14px;
+      line-height: 19.4px;
+   }
+
+   .projects__list_text {
+      font-size: 11px;
+   }
+
+   .slider__button {
+      display: none;
+   }
+
+   .projects__slider_mobile {
+      display: block;
+      background: url(../image/projects__mobile.png);
+      width: 340px;
+      height: 241.35px;
+      margin-bottom: 36.65px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .slider__left {
+      margin-left: 14px;
+   }
+
+   .slider__right {
+      margin-right: 14px;
+   }
+
+   .control {
+      margin-top: -1px;
+      background: #131313;
+      width: 100vw;
+      min-width: 375px;
+   }
+
+   .control__title {
+      margin-bottom: 19.79px;
+   }
+
+   .control__video {
+      background: url(../image/control__video.png);
+      width: 340px;
+      height: 207px;
+      margin-top: 40.21px;
+   }
+
+   .control__video_shadow {
+      width: 340px;
+      height: 207px;
+   }
+
+   .play__control {
+      display: none;
+   }
+
+   .play__control_mobile {
+      display: block;
+   }
+
+   .control__item {
+      margin-top: 28px;
+   }
+
+   .control__text {
+      color: #fff;
+      font-size: 11px;
+      line-height: 169.8%;
+      width: 340px ;
+   }
+
+   .contacts {
+      width: 100vw;
+      min-width: 375px;
+      background: #131313;
+      height: 347.05px;
+      margin-top: -1px;
+   }
+
+   .contacts__form {
+      width: 90.67vw;
+      min-width: 340px;
+      height: 311px;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 61.05px;
+   }
+
+   .contacts__row {
+      flex-direction: column;
+      margin: 0;
+      width: 340px;
+      height: 311px;
+      justify-content: flex-start;
+   }
+
+   .contacts__input {
+      color: #fff;
+      background: none;
+      width: 340px;
+      border: none;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 8px;
+      font-size: 14px;
+      line-height: 138.72%;
+   }
+
+   .contacts__checkbox_check {
+      position: absolute;
+   }
+
+   .contacts__checkbox_check + label {
+      color: #fff;
+   }
+
+   .contacts__text {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 13px;
+      line-height: 21px;
+   }
+
+   .contacts__input::placeholder {
+      color: #FFFFFF;
+   }
+
+   .contacts__checkbox {
+      position: absolute;
+      transform: translate(0px, 190px);
+      width: 340px;
+   }
+
+   .contacts__name {
+      margin-bottom: 63px;
+      height: 45px;
+   }
+
+   .contacts__phone {
+      margin:0 0 106.96px 0;
+      height: 45px;
+   }
+
+   .contacts__button {
+      width: 340px;
+      height: 51px;
+   }
+
+   .order {
+      width: 100vw;
+      min-width: 375px;
+      height: 2030px;
+   }
+
+   .order__title {
+      margin-top: 83px;
+      font-size: 22px;
+      line-height: 138.6%;
+      margin-bottom: 17px;
+   }
+
+   .order__cards {
+      width: 340px;
+      grid-template-columns: 340px;
+      grid-template-rows: repeat(3, 365.15px);
+      gap: 178px;
+   }
+
+   .order__image {
+      width: 340px;
+      height: 365.15px;
+   }
+
+   .order__item {
+      width: 270px;
+      height: 241px;
+      margin: -142px 0 0 0;
+   }
+
+   .order__text_title {
+      font-size: 15px;
+      line-height: 138.6%;
+      margin-left: 31px;
+   }
+
+   .order__text_list {
+      font-size: 13px;
+      line-height: 169.8%;
+      margin-left: 31px;
+      margin-top: 10px;
+      font-family: Nunito Sans;
+   }
+
+   .order__price {
+      height: 40px;
+      width: 190.43px;
+      font-size: 15px;
+   }
+
+   .presentation__list_item {
+      display: none;
+   }
+
+   .presentation__image {
+      display: none;
+   }
+
+   .presentation {
+      width: 100vw;
+      min-width: 375px;
+      background: none;
+      position: absolute;
+      margin: 0;
+      height: 332px;
+      transform: translate(0, -205px);
+      z-index: 1;
+   }
+
+   .presentation__shadow {
+      background: none;
+      width: 90.67vw;
+      min-width: 340px;
+      margin: 0 auto;
+      height: 332px;
+   }
+
+   .presentation__list_title {
+      font-size: 22px;
+      line-height: 138.6%;
+      text-align: center;
+      margin-bottom: 24px;
+   }
+
+   .presentation__list {
+      margin: 0;
+   }
+
+   .presentation__slider {
+      width: 340px;
+      height: 242px;
+      background: url(../image/presentation__slider.png);
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      justify-content: space-between;
+   }
+   
+   .questions {
+      width: 100vw;
+      min-width: 375px;
+      height: 1195px;
+      margin-top: 0;
+      z-index: 0;
+      position: relative;
+   }
+
+   .questions__shadow {
+      width: 100vw;
+      min-width: 375px;
+      background: #131313;
+      height: 1195px;
+   }
+
+   .maps__desctop {
+      display: none;
+   }
+
+   .questions___form { 
+      width: 340px;
+      height: 670px;
+      margin-top: 0;
+      background: #131313;
+      position: relative;
+   }
+
+   .questions__title {
+      font-size: 18px;
+      line-height: 138.6%;
+      width: 340px;
+      margin-top: 0;
+   }
+
+   .questions__input {
+      width: 340px;
+      padding-bottom: 8px;
+      font-size: 14px;
+      line-height: 23px;
+   }
+
+   .questions__row {
+      flex-direction: column;
+      height: 153px;
+      width: 340px;
+      margin-bottom: 63px;
+   }
+
+   .questions__name {
+      margin: 0 0 63px 0;
+   }
+
+   .questions__form_title {
+      margin-top: 163px;
+      font-size: 20px;
+      line-height: 28px;
+   }
+
+   .questions__subtitle {
+      font-size: 13px;
+      line-height: 21px;
+   }
+
+   .questions__question {
+      margin-bottom: 31px;
+   }
+
+   .questions__check + label {
+      font-size: 14px;
+      line-height: 163.68%;
+   }
+
+   .questions__checkbox {
+      width: 340px;
+      margin-bottom: 67.33px;
+   }
+
+   .questions__button {
+      width: 340px;
+      height: 51px;
+      margin: 0;
+      font-size: 13px;
+   }
+
+   .maps__mobile {
+      display: block;
+      width: 340px;
+      height: 255px;
+      margin: 46px 0 41.79px 0;
+   }
+
+   .desctop {
+      display: block;
+   }
+}
